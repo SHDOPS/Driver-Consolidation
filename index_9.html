@@ -401,7 +401,7 @@ const busyUI=()=>$('modal').classList.contains('show');
 
 /* ====== CONNECTION TO GOOGLE APPS SCRIPT ======
    Paste your web app link (ending in /exec) below. It contains no PINs or data. */
-const API_URL='PASTE_YOUR_WEB_APP_URL_HERE';   // <<< PASTE YOUR /exec LINK HERE
+const API_URL='https://script.google.com/macros/s/AKfycbwSGPC6c3P19OkHEJ3wlxub1c1xRx1tmjrFNRSeRzSGTgwdT6ilC90hvNwOMBknM35NOQ/exec';   // <<< PASTE YOUR /exec LINK HERE
 async function api(fn,...args){
   let res;
   try{res=await fetch(API_URL,{method:'POST',redirect:'follow',
